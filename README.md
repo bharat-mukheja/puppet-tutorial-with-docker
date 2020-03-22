@@ -1,0 +1,1 @@
+Puppet tutorial teaching how to setup a puppet server and client and how to use it to install mysql,php and apache2 server. All the machines in this are docker containers hence this tutorial can be run directly on a laptop/personal computer without needing additional compute for multiple machines.

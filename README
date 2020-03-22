@@ -1,0 +1,7 @@
+This code is taken from https://medium.com/swlh/install-puppet-server-on-docker-fe4a80cbe3be
+
+To run the dockerized puppet infrastructure, run 'DNS_ALT_NAMES=host.exam docker-compose up -d'. For more details, go to the above link.
+
+We are following puppet tutorial from this video: https://www.youtube.com/watch?v=PL_J5Gj3GAQ
+
+Towards the end of this tutorial, the mysqld service didn't start because these docker containers don't have systemd which is needed by mysqld. So, I've left the module at that.
